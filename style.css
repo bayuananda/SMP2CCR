@@ -1,0 +1,297 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(51, 153, 102);
+    font-family:'Open Sans', Arial, sans-serif;
+    font-size:14px;
+    font-weight:300;
+    color:#656565;  
+}
+.top{
+    background: url("1.jpg");
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(51, 153, 102, 0.68);
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+    float: left;
+    transform-origin: 20%;
+}
+.list{
+    position: relative;
+    width: 75%;
+    padding-left: 5px;
+    float: left;
+}    
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    float: left;
+    line-height: 80px;
+    position: relative;
+}
+.list ul li a{
+    color: #f7f7f7;
+    display: block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-left: -8px
+
+}
+
+.list ul li a:hover{
+    color: #72FF5B
+}
+.list a{
+    text-decoration: none;  
+    margin-top: -15px;              
+}
+.search{
+    float: right;
+    border-radius: 3px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    margin: 20px 5px 20px 0px;
+}
+.search form {
+    background: #fff;
+}
+.search input[type="text"] {
+    padding: 8px 5px;
+    font-size: 13px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+.motto {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+    position: center;
+}
+.clear{clear: both;}
+
+.conten{
+    margin: 0 auto;
+}
+
+.motto {
+    margin: 150px; 
+    text-align: center;
+    border: 4px solid #fff;
+    border-radius: 10%;
+}
+.motto h1 {
+    font-size: 50px; 
+    color:#fff;
+    font-family: harrington;
+}
+.motto p {
+    font-size: 35px;
+    font-family: harrington;
+}
+.kata {
+    background: url("c03.jpg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.kata h1{
+    color:#26010f;
+    font-family: serif;
+}
+.kata p{
+    font-size: 20px;
+    color:#260101;
+}
+.kata a{
+    background-color: #00CDAE;
+    border: 4px solid;
+    border-radius: 10%;
+}
+.kata img{
+    border-radius: 100%;
+    width: 100px;
+    height: 95px;
+}
+.kata button{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: solid 1px #fff;
+    border-radius:5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #CF580B;
+}
+
+.warta{
+    margin:2% 5%;
+    padding: 0 auto;
+    height: 280px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.blok{
+    text-align: left;
+    padding: 2%;
+    width: 20%;
+    float: left;
+    color: #f7f7f7;
+}
+
+.blok h2{
+    text-align: center;
+}
+.blok a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.blok a:hover {
+     color: #72FF5B
+}
+.last{
+    background: url(Background-kapoci.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    text-align: left;
+}
+.last p{
+    text-align: center;
+    color: rgb(173, 149, 175);
+    font-size: 90px;
+    margin: 0 auto;
+    padding: 78px;
+}
+footer{
+    width: 100%;
+    background: #282828;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 13;
+}
+footer a{
+     text-decoration: none;
+     color: #045279;
+}
+
+<!--about-->
+.gal{
+    padding: 2%;
+    width: 20%;
+}
+.gal h2{
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    border-bottom: 3px solid #fff;
+
+}
+.gam img{
+    width: 45%;
+    margin: 2%;
+}
+.gam img:hover {
+     color: #72FF5B
+}
+<!--siswa-->
+.reg {
+   margin: 0 auto;
+   background-color: #fff;
+}
+.reg h1{
+    margin: 3% 8%;
+    text-align: center;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+.reg form{
+    padding-top: 4%;
+    margin: 0 8%;
+    color: #fff;
+    background: url(Catalinablue.jpg);
+    font-size: 20px; padding: 2px;
+    border-radius: 5px;
+}
+.reg p {
+    margin: 10%;
+    clear:both; 
+    margin:5px; 
+    border-bottom:solid 1px #fff; 
+    padding:12px 0px;
+}
+.reg label{
+    margin-width:200px; 
+    vertical-align:top; 
+    float:left; 
+    min-width:200px;
+}
+.reg input[type="text"], textarea{
+    min-width:250px;
+    border-radius: 5px;
+    margin: 0 12% auto;
+    padding: 1%;
+    font-size: 15px;
+}
+.reg input[type="password"]{
+    min-width:250px;
+    border-radius: 5px;
+    margin: 0 12%;
+    padding: 1%;
+    font-size: 15px;
+}
+.reg input[type="radio"], select{
+    min-width:50px;
+    border-radius: 5px;
+    margin: 0 10%;
+    font-size: 15px;
+}
+.reg select{
+    min-width:250px;
+    border-radius: 5px;
+    margin: 0 12%;
+    padding: 1%;
+    font-size: 15px;
+}
+
+.reg button{
+    width: 200px; 
+    height: 50px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border: solid 1px #2E2E2E; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    color: #fff;
+    background-color: rgba(40, 255, 5, 0.45);
+}
